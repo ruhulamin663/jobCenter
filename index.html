@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Job Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                <h1>JobFinder</h1>
+            </div>
+            <div class="navBar">
+                <ul class="nav-links">
+                    <li><a href="#hero" class="active">Home</a></li>
+                    <li><a href="#job-listings">Top Jobs</a></li>
+                    <li><a href="#cta">Recent Jobs</a></li>
+                    <li><a href="#job-listing" class="highlight">Get Dream Job</a></li>
+                </ul>
+            </div>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Find Your Dream Job Today</h1>
+                <p>Discover thousands of job opportunities with top employers. Your next career move is just a click
+                    away.</p>
+                <div class="hero-btns">
+                    <a href="#job-listings" class="btn primary-btn ">Explore Jobs</a>
+
+                </div>
+            </div>
+            <!-- <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+                    alt="Job seeker" style="width: 100%; border-radius: 10px; box-shadow: var(--box-pinkshadow);">
+            </div> -->
+            <div class="hero-image" style="flex: 1; min-width: 300px;">
+                <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+                    alt="Hero Image" style="width: 100%; border-radius: 10px; box-shadow: var(--box-whiteshadow);">
+            </div>
+
+            <!--Header ends-->
+
+
+        </div>
+        <!--Waves Container-->
+        <div>
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave"
+                        d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+
+                    <!-- <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" /> -->
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(156, 79, 242, 0.8)" />
+                    <!-- <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" /> -->
+                    <use xlink:href="#gentle-wave" x="50" y="3" fill="rgba(154, 249, 163, 0.8)" />
+                    <use xlink:href="#gentle-wave" x="44" y="5" fill="rgba(255,255,255,0.3)" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(248, 168, 126, 0.8)" />
+                    <use xlink:href="#gentle-wave" x="12" y="10" fill="var(--bg-light)" />
+
+
+
+                </g>
+            </svg>
+        </div>
+        <!--Waves end-->
+    </section>
+
+
+    <section id="job-listings" class="job-listings">
+        <div class="section-header">
+            <h2>Featured Job Portals</h2>
+            <p>Connect with the best job sites to find your perfect career match</p>
+        </div>
+
+        <div class="job-boxes">
+            <div class="job-box">
+                <div class="job-icon">
+                    <img src="/images/housekeepingnew.png" alt="House Keeping">
+                </div>
+                <h3 id="corporate-job">Housekeeping</h3>
+                <p>Find top positions in leading corporations with competitive salaries and benefits.</p>
+               
+                <div style="text-align: center;">
+                    <a href="https://nx2bs.com/c?o=333&a=10326&s1=Shahin69" class="explore-btn">
+                        Explore <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="technology-job" class="job-box">
+                <div class="job-icon">
+                    <img src="/images/caregiver1.jpg" alt="CareGiver">
+                </div>
+                <h3>Caregiver Jobs</h3>
+                <p>Discover opportunities in tech companies and startups across different domains.</p>
+                <div style="text-align: center;">
+                    <a href="https://nx2bs.com/c?o=342&a=10326&s1=Shahin69" class="explore-btn">Explore <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="job-box">
+                <div class="job-icon">
+                    <img src="/images/fadex1.jpg" alt="FedEx">
+                </div>
+                <h3>FedEx</h3>
+                <p>Explore positions in banking, investment, and financial advisory sectors.</p>
+                <div style="text-align: center;">
+                    <a href="https://nx2bs.com/c?o=330&a=10326&s1=Shahin69" class="explore-btn">Explore <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="job-box">
+                <div class="job-icon">
+                    <img src="/images/kelly1.jpg" alt="Kelly Services">
+                </div>
+                <h3>Kelly Services</h3>
+                <p>Find flexible remote positions from companies worldwide with great work-life balance.</p>
+                <div style="text-align: center;">
+                    <a href="https://nx2bs.com/c?o=320&a=10326&s1=Shahin69" class="explore-btn">Explore <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="job-box">
+                <div class="job-icon">
+                    <img src="/images/walmart2.png" alt="WalMart">
+                </div>
+                <h3>Walmart</h3>
+                <p>Great opportunities for fresh graduates and people starting their careers.</p>
+                <div style="text-align: center;">
+                    <a href="https://nx2bs.com/c?o=332&a=10326&s1=Shahin69" class="explore-btn">Explore <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="cta" class="cta-section">
+        <div class="cta-content">
+            <h2>Ready to Find Your Dream Job?</h2>
+            <p>Join thousands of job seekers who have successfully found their dream careers through our platform.</p>
+            <a href="#job-listing" class="btn seondprimary-btn">Get Started Now</a>
+        </div>
+    </section>
+    <!-- Find Your Dream Job Today Section -->
+    <section class="dream-job-section job-listings">
+        <!-- <div class="section-header">
+            <h2>Find Your Dream Job Today</h2>
+            <p>Thousands of jobs in the computer, engineering and technology sectors are waiting for you.</p>
+        </div> -->
+
+        <div class="dream-job-container"
+            style="max-width: 1400px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 2rem;">
+            <div class="dream-job-content" style="flex: 1; min-width: 300px; ">
+
+                <h2 style="text-align: center;">Take the next step in
+                    your career</h2>
+                <p style="color: var(--primary-color); margin-bottom: 1.5rem; max-width: 600px;">
+                    Whether you're looking for a new challenge or starting your professional journey, we have the right
+                    job
+                    for you. Our platform connects you with top employers across industries.
+                </p>
+                <ul class="benefits-list" style="margin-bottom: 2rem; ">
+                    <li style="margin-bottom: 0.75rem;"><i class="fas fa-check-circle"
+                            style="color: var(--primary-color); margin-right: 0.5rem;"></i>Personalized job
+                        recommendations based on your skills</li>
+                    <li style="margin-bottom: 0.75rem;"><i class="fas fa-check-circle"
+                            style="color: var(--primary-color); margin-right: 0.5rem;"></i>Direct application to
+                        thousands of verified employers</li>
+                    <li style="margin-bottom: 0.75rem;"><i class="fas fa-check-circle"
+                            style="color: var(--primary-color); margin-right: 0.5rem;"></i>Career resources and salary
+                        insights to help your decision</li>
+                </ul>
+                <div class="dream-job-btns" style="display: flex; justify-content: center;
+
+ gap: 1rem;">
+                    <a href="#job-listings" class="btn seondprimary-btn">Apply Now</a>
+                    <!-- <a href="#" class="btn secondary-btn">Upload Your Resume</a> -->
+                </div>
+            </div>
+            <div class="dream-job-image" style="flex: 1; min-width: 300px;">
+                <img src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+                    alt="Job search" style="width: 100%; border-radius: 10px; box-shadow: var(--box-pinkshadow);">
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Listing Section -->
+    <section id="job-listing" class="job-listings">
+        <div class="section-header">
+            <h1 style="font-size: 2.5rem; color: var(--primary-color);">Job Listings</h1>
+            <p>Find the perfect position that matches your skills and career goals</p>
+        </div>
+
+        <div class="container" style="max-width: 1400px; margin: 0 auto; padding: 0 5%;">
+            <!-- Job Filter Navigation -->
+            <div class="job-filter-nav">
+                <button class="filter-btn active" data-filter="all">Features Job</button>
+                <button class="filter-btn" data-filter="full-time">Full Time Job</button>
+                <button class="filter-btn" data-filter="part-time">Part Time Job</button>
+            </div>
+
+            <!-- Job Listings -->
+            <div class="job-listings-container">
+                <!-- Job Item 1 -->
+                <div class="job-item" data-category="full-time">
+                    <div class="job-info">
+                        <div class="company-logo">
+                            <img src="/images/housekeepingnew.png" alt="House Keeping">
+
+                            <!-- <i class="fas fa-laptop-code"></i> -->
+                            <!-- <i class="fa-solid fa-house"></i> -->
+                        </div>
+                        <div class="job-details">
+                            <h3>Housekeeping</h3>
+                            <div class="job-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> New York, USA</span>
+                                <span><i class="fas fa-briefcase"></i> Full Time</span>
+                                <span><i class="fas fa-money-bill-wave"></i> $90,000 - $120,000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job-actions">
+                        <a href="https://nx2bs.com/c?o=333&a=10326&s1=Shahin69" class="btn primary-btn">Apply Now</a>
+                        <!-- <p><i class="far fa-clock"></i> Deadline: June 30, 2023</p> -->
+                    </div>
+                </div>
+
+                <!-- Job Item 2 -->
+                <div class="job-item" data-category="part-time">
+                    <div class="job-info">
+                        <div class="company-logo">
+                            <!-- <i class="fas fa-paint-brush"></i> -->
+                            <img src="/images/caregiver1.jpg" alt="CareGiver Jobs">
+
+                        </div>
+                        <div class="job-details">
+                            <h3>CareGiver Jobs</h3>
+                            <div class="job-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> Remote</span>
+                                <span><i class="fas fa-briefcase"></i> Part Time</span>
+                                <span><i class="fas fa-money-bill-wave"></i> $40 - $50/hr</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job-actions">
+                        <a href="https://nx2bs.com/c?o=342&a=10326&s1=Shahin69" class="btn primary-btn">Apply Now</a>
+                        <!-- <p><i class="far fa-clock"></i> Deadline: July 15, 2023</p> -->
+                    </div>
+                </div>
+
+                <!-- Job Item 3 -->
+                <div class="job-item" data-category="full-time">
+                    <div class="job-info">
+                        <div class="company-logo">
+                            <!-- <i class="fas fa-database"></i> -->
+                            <!-- <i class="fa-brands fa-fedex"></i> -->
+                            <img src="/images/fadex1.jpg" alt="Fedex Logo">
+
+                        </div>
+                        <div class="job-details">
+                            <h3>FedEx</h3>
+                            <div class="job-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> San Francisco, USA</span>
+                                <span><i class="fas fa-briefcase"></i> Full Time</span>
+                                <span><i class="fas fa-money-bill-wave"></i> $110,000 - $150,000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job-actions">
+                        <a href="https://nx2bs.com/c?o=330&a=10326&s1=Shahin69" class="btn primary-btn">Apply Now</a>
+                        <!-- <p><i class="far fa-clock"></i> Deadline: July 5, 2023</p> -->
+                    </div>
+                </div>
+
+                <!-- Job Item 4 -->
+                <div class="job-item" data-category="part-time">
+                    <div class="job-info">
+                        <div class="company-logo">
+                            <!-- <i class="fas fa-bullhorn"></i> -->
+                            <img src="/images/kelly.jpg" alt="Kelly Service">
+
+                        </div>
+                        <div class="job-details">
+                            <h3>Kelly Services</h3>
+                            <div class="job-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> Chicago, USA</span>
+                                <span><i class="fas fa-briefcase"></i> Part Time</span>
+                                <span><i class="fas fa-money-bill-wave"></i> $35 - $45/hr</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job-actions">
+                        <a href="https://nx2bs.com/c?o=320&a=10326&s1=Shahin69" class="btn primary-btn">Apply Now</a>
+                        <!-- <p><i class="far fa-clock"></i> Deadline: July 20, 2023</p> -->
+                    </div>
+                </div>
+
+                <!-- Job Item 5 -->
+                <div class="job-item" data-category="full-time">
+                    <div class="job-info">
+                        <div class="company-logo">
+                            <!-- <i class="fas fa-mobile-alt"></i> -->
+                            <img src="/images/walmart.jpg" alt="WalMart">
+
+                        </div>
+                        <div class="job-details">
+                            <h3>Walmart</h3>
+                            <div class="job-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> Austin, USA</span>
+                                <span><i class="fas fa-briefcase"></i> Full Time</span>
+                                <span><i class="fas fa-money-bill-wave"></i> $85,000 - $115,000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job-actions">
+                        <a href="https://nx2bs.com/c?o=332&a=10326&s1=Shahin69" class="btn primary-btn">Apply Now</a>
+                        <!-- <p><i class="far fa-clock"></i> Deadline: July 25, 2023</p> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <!-- <div style="text-align: center; margin-top: 2rem;">
+                <a href="#" class="btn secondary-btn">Load More Jobs</a>
+            </div> -->
+        </div>
+    </section>
+    <section id="stats" class="stats-section">
+        <div class="stats-container">
+            <div class="stat-item">
+                <h3>10K+</h3>
+                <p>Job Listings</p>
+            </div>
+            <div class="stat-item">
+                <h3>5K+</h3>
+                <p>Companies</p>
+            </div>
+            <div class="stat-item">
+                <h3>15K+</h3>
+                <p>Successful Hires</p>
+            </div>
+            <div class="stat-item">
+                <h3>98%</h3>
+                <p>Client Satisfaction</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="jobfinder-section">
+            <h3>JobFinder</h3>
+            <p>Connecting talented professionals with their dream careers worldwide.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-content">
+
+
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <!-- <li><a href="#">Home</a></li> -->
+                    <li><a href="#stats">About Us</a></li>
+                    <!-- <li><a href="#">Contact</a></li> -->
+                    <li><a href="#cta">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Job Categories</h4>
+                <ul>
+                    <!-- <li><a href="#">Technology</a></li>
+                    <li><a href="#">Finance</a></li> -->
+                    <li><a href="#job-listings">World Best Salary Job</a></li>
+                    <li><a href="#job-listing">Easy To Get Job</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Job Street, Career City</li>
+                    <li><i class="fas fa-phone"></i> +1 234 567 8900</li>
+                    <li><i class="fas fa-envelope"></i> info@jobfinder.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 JobFinder. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
